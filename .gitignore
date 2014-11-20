@@ -26,7 +26,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -44,3 +45,6 @@ Temporary Items
 
 MakeIcon/bin/*
 MakeIcon/obj/*
+/MakeIcon/obj/*
+MakeIcon/obj/x86/Debug/MakeIcon.exe
+MakeIcon/obj/x86/Debug/MakeIcon.pdb

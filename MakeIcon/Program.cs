@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.IO.IsolatedStorage;
 using System.Drawing;
 
+
 namespace ConsoleApplication1
 {
     class Program
@@ -51,12 +52,37 @@ namespace ConsoleApplication1
         {
 
             Image image = new Bitmap("data/test.png");
+            Bitmap src = Image.FromFile("data/test.png") as Bitmap;
+            if (src.Width < Width)
+            {
+                Console.WriteLine("Resizing");
+                src = (Bitmap)resizeImage(src, new Size(src.Width * 2, src.Height * 2));
+            }
+
+
 
             Image rsz = resizeImage(image, new Size(Width, Height));
 
-            rsz.Save("output/" + projectName + "/" + Folder + "/" + CompleteName);
+            Rectangle cropRect = new Rectangle((src.Width/2) - (Width/2),(src.Height/2) - (Height/2),Width,Height);
+            
+
+
+
+            Bitmap target = new Bitmap(cropRect.Width, cropRect.Height);
+
+            using(Graphics g = Graphics.FromImage(target))
+            {
+               g.DrawImage(src, new Rectangle(0, 0, target.Width, target.Height), 
+                                cropRect,                        
+                                GraphicsUnit.Pixel);
+                target.Save("output/" + projectName + "/" + Folder + "/" + CompleteName); 
+            }
+
+            rsz.Save("output/" + projectName + "/" + Folder + "/RSZ_" + CompleteName);
 
         }
+
+
 
         public static Image resizeImage(Image imgToResize, Size size)
         {
