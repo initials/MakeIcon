@@ -1,0 +1,11 @@
+C:\Users\Shane\AppData\Local\Temporary Projects\MakeIcon\bin\Debug\MakeIcon.exe
+C:\Users\Shane\AppData\Local\Temporary Projects\MakeIcon\bin\Debug\MakeIcon.pdb
+C:\Users\Shane\AppData\Local\Temporary Projects\MakeIcon\obj\x86\Debug\MakeIcon.exe
+C:\Users\Shane\AppData\Local\Temporary Projects\MakeIcon\obj\x86\Debug\MakeIcon.pdb
+E:\VisualStudio2010\MakeIcon\MakeIcon\obj\x86\Debug\MakeIcon.exe
+E:\VisualStudio2010\MakeIcon\MakeIcon\obj\x86\Debug\MakeIcon.pdb
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\MakeIcon.exe
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\MakeIcon.pdb
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\data\data.csv
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\data\test.png
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\output\outputFiles.txt
