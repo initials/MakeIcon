@@ -5,3 +5,6 @@ E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\MakeIcon.exe
 E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\MakeIcon.pdb
 E:\VisualStudio2010\MakeIcon\MakeIcon\obj\x86\Debug\MakeIcon.exe
 E:\VisualStudio2010\MakeIcon\MakeIcon\obj\x86\Debug\MakeIcon.pdb
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\data\icon.png
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\data\launch.png
+E:\VisualStudio2010\MakeIcon\MakeIcon\bin\Debug\data\screenshot.png

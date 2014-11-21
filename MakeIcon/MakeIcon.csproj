@@ -54,6 +54,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\launch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\screenshot.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\test.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

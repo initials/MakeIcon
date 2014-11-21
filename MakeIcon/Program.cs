@@ -50,9 +50,26 @@ namespace ConsoleApplication1
 
         static public void makeImage(string Name, int Width, int Height, string CompleteName, string Folder)
         {
+            string filename = "data/test.png";
+            if (Name.Contains("icon"))
+            {
+                filename = "data/icon.png";
+            }
+            else if (Name.Contains("launch"))
+            {
+                filename = "data/launch.png";
+            }
+            else if (Name.Contains("screenshot"))
+            {
+                filename = "data/screenshot.png";
+            }
 
-            Image image = new Bitmap("data/test.png");
-            Bitmap src = Image.FromFile("data/test.png") as Bitmap;
+
+            Image image = new Bitmap(filename);
+
+
+
+            Bitmap src = Image.FromFile(filename) as Bitmap;
             if (src.Width < Width)
             {
                 Console.WriteLine("Resizing");
